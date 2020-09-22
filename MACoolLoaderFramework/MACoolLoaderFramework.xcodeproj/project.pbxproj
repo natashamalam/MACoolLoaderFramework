@@ -7,10 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B8A61BB251A8705006B59D4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A61BA251A8704006B59D4 /* Constants.swift */; };
+		9B8A61BE251A870C006B59D4 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A61BD251A870C006B59D4 /* UIColorExtension.swift */; };
+		9B8A61C2251A8714006B59D4 /* BaseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A61C0251A8714006B59D4 /* BaseUIView.swift */; };
+		9B8A61C3251A8714006B59D4 /* MALoaderLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A61C1251A8714006B59D4 /* MALoaderLayer.swift */; };
+		9B8A61CB251A8722006B59D4 /* MASolidBeapingLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A61C5251A8721006B59D4 /* MASolidBeapingLoader.swift */; };
+		9B8A61CC251A8722006B59D4 /* MATranslucentLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A61C6251A8721006B59D4 /* MATranslucentLoader.swift */; };
+		9B8A61CD251A8722006B59D4 /* MARadiatingBlobLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A61C7251A8722006B59D4 /* MARadiatingBlobLoader.swift */; };
+		9B8A61CE251A8722006B59D4 /* MAVanishingLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A61C8251A8722006B59D4 /* MAVanishingLoader.swift */; };
+		9B8A61CF251A8722006B59D4 /* MAMultiLayeredLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A61C9251A8722006B59D4 /* MAMultiLayeredLoader.swift */; };
+		9B8A61D0251A8722006B59D4 /* MAWavingBlobLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A61CA251A8722006B59D4 /* MAWavingBlobLoader.swift */; };
 		9BDA6DD52518C39200565ECE /* MACoolLoaderFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDA6DD32518C39200565ECE /* MACoolLoaderFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B8A61BA251A8704006B59D4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9B8A61BD251A870C006B59D4 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		9B8A61C0251A8714006B59D4 /* BaseUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIView.swift; sourceTree = "<group>"; };
+		9B8A61C1251A8714006B59D4 /* MALoaderLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MALoaderLayer.swift; sourceTree = "<group>"; };
+		9B8A61C5251A8721006B59D4 /* MASolidBeapingLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASolidBeapingLoader.swift; sourceTree = "<group>"; };
+		9B8A61C6251A8721006B59D4 /* MATranslucentLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MATranslucentLoader.swift; sourceTree = "<group>"; };
+		9B8A61C7251A8722006B59D4 /* MARadiatingBlobLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MARadiatingBlobLoader.swift; sourceTree = "<group>"; };
+		9B8A61C8251A8722006B59D4 /* MAVanishingLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVanishingLoader.swift; sourceTree = "<group>"; };
+		9B8A61C9251A8722006B59D4 /* MAMultiLayeredLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAMultiLayeredLoader.swift; sourceTree = "<group>"; };
+		9B8A61CA251A8722006B59D4 /* MAWavingBlobLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAWavingBlobLoader.swift; sourceTree = "<group>"; };
 		9BDA6DD02518C39200565ECE /* MACoolLoaderFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MACoolLoaderFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BDA6DD32518C39200565ECE /* MACoolLoaderFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MACoolLoaderFramework.h; sourceTree = "<group>"; };
 		9BDA6DD42518C39200565ECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +66,16 @@
 		9BDA6DD22518C39200565ECE /* MACoolLoaderFramework */ = {
 			isa = PBXGroup;
 			children = (
+				9B8A61BA251A8704006B59D4 /* Constants.swift */,
+				9B8A61BD251A870C006B59D4 /* UIColorExtension.swift */,
+				9B8A61C0251A8714006B59D4 /* BaseUIView.swift */,
+				9B8A61C1251A8714006B59D4 /* MALoaderLayer.swift */,
+				9B8A61C9251A8722006B59D4 /* MAMultiLayeredLoader.swift */,
+				9B8A61C7251A8722006B59D4 /* MARadiatingBlobLoader.swift */,
+				9B8A61C5251A8721006B59D4 /* MASolidBeapingLoader.swift */,
+				9B8A61C6251A8721006B59D4 /* MATranslucentLoader.swift */,
+				9B8A61C8251A8722006B59D4 /* MAVanishingLoader.swift */,
+				9B8A61CA251A8722006B59D4 /* MAWavingBlobLoader.swift */,
 				9BDA6DD32518C39200565ECE /* MACoolLoaderFramework.h */,
 				9BDA6DD42518C39200565ECE /* Info.plist */,
 			);
@@ -94,6 +124,7 @@
 				TargetAttributes = {
 					9BDA6DCF2518C39200565ECE = {
 						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
 					};
 				};
 			};
@@ -130,6 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B8A61C3251A8714006B59D4 /* MALoaderLayer.swift in Sources */,
+				9B8A61BB251A8705006B59D4 /* Constants.swift in Sources */,
+				9B8A61CC251A8722006B59D4 /* MATranslucentLoader.swift in Sources */,
+				9B8A61CB251A8722006B59D4 /* MASolidBeapingLoader.swift in Sources */,
+				9B8A61BE251A870C006B59D4 /* UIColorExtension.swift in Sources */,
+				9B8A61D0251A8722006B59D4 /* MAWavingBlobLoader.swift in Sources */,
+				9B8A61C2251A8714006B59D4 /* BaseUIView.swift in Sources */,
+				9B8A61CE251A8722006B59D4 /* MAVanishingLoader.swift in Sources */,
+				9B8A61CF251A8722006B59D4 /* MAMultiLayeredLoader.swift in Sources */,
+				9B8A61CD251A8722006B59D4 /* MARadiatingBlobLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +302,7 @@
 		9BDA6DD92518C39200565ECE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEFINES_MODULE = YES;
@@ -281,6 +323,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,6 +332,7 @@
 		9BDA6DDA2518C39200565ECE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEFINES_MODULE = YES;
