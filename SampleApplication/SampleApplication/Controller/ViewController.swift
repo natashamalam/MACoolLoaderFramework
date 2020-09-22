@@ -6,12 +6,16 @@
 //
 
 import UIKit
+import MACoolLoaderFramework
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let loader = MARadiatingBlobLoader(onView: imageView, withSize: .medium)
+        loader.show()
     }
 
 

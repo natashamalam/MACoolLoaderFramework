@@ -1,0 +1,11 @@
+framework module MACoolLoaderFramework {
+  umbrella header "MACoolLoaderFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module MACoolLoaderFramework.Swift {
+    header "MACoolLoaderFramework-Swift.h"
+    requires objc
+}

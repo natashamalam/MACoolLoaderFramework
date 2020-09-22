@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B8A61DA251A96EF006B59D4 /* MACoolLoaderFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8A61D7251A96B8006B59D4 /* MACoolLoaderFramework.framework */; };
+		9B8A61DB251A96EF006B59D4 /* MACoolLoaderFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8A61D7251A96B8006B59D4 /* MACoolLoaderFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9BDA6DE92518C82C00565ECE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDA6DE82518C82C00565ECE /* AppDelegate.swift */; };
 		9BDA6DED2518C82C00565ECE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDA6DEC2518C82C00565ECE /* ViewController.swift */; };
 		9BDA6DF02518C82C00565ECE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDA6DEE2518C82C00565ECE /* Main.storyboard */; };
@@ -14,7 +16,22 @@
 		9BDA6DF52518C82D00565ECE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDA6DF32518C82D00565ECE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9B8A61DC251A96F0006B59D4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9B8A61DB251A96EF006B59D4 /* MACoolLoaderFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		9B8A61D7251A96B8006B59D4 /* MACoolLoaderFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MACoolLoaderFramework.framework; sourceTree = "<group>"; };
 		9BDA6DE52518C82C00565ECE /* SampleApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BDA6DE82518C82C00565ECE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BDA6DEC2518C82C00565ECE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B8A61DA251A96EF006B59D4 /* MACoolLoaderFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +72,7 @@
 		9BDA6DE72518C82C00565ECE /* SampleApplication */ = {
 			isa = PBXGroup;
 			children = (
+				9B8A61D7251A96B8006B59D4 /* MACoolLoaderFramework.framework */,
 				9BDA6DFE2518C85500565ECE /* Supporting File */,
 				9BDA6DFF2518C86200565ECE /* Controller */,
 				9BDA6E002518C86D00565ECE /* View */,
@@ -106,6 +125,7 @@
 				9BDA6DE12518C82C00565ECE /* Sources */,
 				9BDA6DE22518C82C00565ECE /* Frameworks */,
 				9BDA6DE32518C82C00565ECE /* Resources */,
+				9B8A61DC251A96F0006B59D4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -316,8 +336,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NUV73DSTTT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SampleApplication",
+				);
 				INFOPLIST_FILE = SampleApplication/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,8 +360,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NUV73DSTTT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SampleApplication",
+				);
 				INFOPLIST_FILE = SampleApplication/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
