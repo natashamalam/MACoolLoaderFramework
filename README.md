@@ -20,7 +20,7 @@ Walk Through-
  
  ``` 
      target 'SampleApp' do
-        pod 'MAWishfulButtonFramework', '~> 1.0'
+        pod 'MACoolLoaderFramework', '~> 1.0'
      end
  ```
  - save and close it.
