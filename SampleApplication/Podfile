@@ -1,0 +1,3 @@
+target 'SampleApplication' do
+  pod 'MACoolLoaderFramework', '~> 1.0.1'
+end

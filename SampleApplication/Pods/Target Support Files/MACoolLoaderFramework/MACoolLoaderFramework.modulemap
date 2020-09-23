@@ -1,0 +1,6 @@
+module MACoolLoaderFramework {
+  umbrella header "MACoolLoaderFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

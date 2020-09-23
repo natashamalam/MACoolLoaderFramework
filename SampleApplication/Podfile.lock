@@ -1,0 +1,16 @@
+PODS:
+  - MACoolLoaderFramework (1.0.1)
+
+DEPENDENCIES:
+  - MACoolLoaderFramework (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - MACoolLoaderFramework
+
+SPEC CHECKSUMS:
+  MACoolLoaderFramework: fcffd353ee7ceb5250e0691f6caaa88b7795b06e
+
+PODFILE CHECKSUM: a8f047580514807990f41d91390ed6b630645470
+
+COCOAPODS: 1.9.3
