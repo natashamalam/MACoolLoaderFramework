@@ -7,12 +7,27 @@ MACoolLoaderFramework is a light-weight, easy to use library providing 6 kinds o
  - *Swift 5.0*
 
 # Installation
-Currently available through manual integration. 
-- Download the code. Run the MACoolLoaderFramework framework Project. 
-- Expand the 'Product' group. MACoolLoaderFramework.framework will be found there.
-- Right click on it and select 'Show in Finder'.
-- Get the 'MACoolLoaderFramework.framework' folder and add it to by drag and drop it into your project.
+#### Through CocoaPods
 
+Make sure CocoaPods is install in your machine. If not, open the terminal and type ```sudo gem install cocoapods```.
+
+Walk Through- 
+ - Open the Terminal
+ - Navigate to the app's project directory by typing ``cd [application directory]``
+ - Create a pod file with ``pod init``
+ - Open the pod file. To open in Xcode, type ``open Podfile -a Xcode``.
+ - In the Podfile, add following lines-
+ 
+ ``` 
+     target 'SampleApp' do
+        pod 'MAWishfulButtonFramework', '~> 1.0'
+     end
+ ```
+ - save and close it.
+ - Now type - ```pod install``
+ - Sometimes, to get the latest release, you have to do ```pod update```
+ 
+ 
 # Loader Categories
 ```
   - MASolidBeapingLoader
